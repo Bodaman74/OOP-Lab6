@@ -1,0 +1,34 @@
+[
+    {
+        "userID": 1,
+        "role": "Instructor",
+        "fullName": "Amina Hassan",
+        "username": "ahassan",
+        "email": "amina@gmail.com",
+        "password": "98765",
+        "specialization": "Software Engineering",
+        "courses": [101, 102]
+    },
+    {
+        "userID": 2,
+        "role": "Student",
+        "fullName": "Omar Khaled",
+        "username": "okhaled",
+        "email": "omar@gmail.com",
+        "password": "54321",
+        "studentAnalytics": {
+            "completedCourses": 2,
+            "totalTimeHours": 45,
+            "avgQuizScore": 83.2
+        },
+        "enrolledCourses": [201, 202]
+    },
+    {
+        "userID": 3,
+        "role": "Admin",
+        "fullName": "Lina Saeed",
+        "username": "lina_S",
+        "email": "lina@gmail.com",
+        "password": "12345"
+    }
+]
