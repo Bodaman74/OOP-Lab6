@@ -10,7 +10,7 @@
         <mxCell id="T_ALOBzyCJ3aizw6vO3O-2" value="&lt;b&gt;CertificateManager&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="660" y="99" width="130" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="T_ALOBzyCJ3aizw6vO3O-4" value="&lt;b&gt;CourseService&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="T_ALOBzyCJ3aizw6vO3O-4" value="&lt;b&gt;Course&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="240" y="100" width="100" height="389" as="geometry" />
         </mxCell>
         <mxCell id="T_ALOBzyCJ3aizw6vO3O-10" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;rounded=0;" parent="1" edge="1">
@@ -30,7 +30,7 @@
             <mxPoint x="470" y="186" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T_ALOBzyCJ3aizw6vO3O-13" value="&lt;b style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;Check Course Availability&lt;/b&gt;&lt;div&gt;&lt;b style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;&amp;nbsp;( CourseId)&lt;/b&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="T_ALOBzyCJ3aizw6vO3O-12" vertex="1" connectable="0">
+        <mxCell id="T_ALOBzyCJ3aizw6vO3O-13" value="&lt;b style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;Check Course Availability&lt;/b&gt;&lt;div&gt;&lt;b style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;&amp;nbsp;()&lt;/b&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="T_ALOBzyCJ3aizw6vO3O-12" vertex="1" connectable="0">
           <mxGeometry x="0.2" y="4" relative="1" as="geometry">
             <mxPoint x="-16" y="-16" as="offset" />
           </mxGeometry>
@@ -41,7 +41,7 @@
             <mxPoint x="310" y="211" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T_ALOBzyCJ3aizw6vO3O-15" value="&lt;b style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;Return Availability ( Boolean )&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="T_ALOBzyCJ3aizw6vO3O-14" vertex="1" connectable="0">
+        <mxCell id="T_ALOBzyCJ3aizw6vO3O-15" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;&lt;b&gt;getIsAvailable ()&lt;/b&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="T_ALOBzyCJ3aizw6vO3O-14" vertex="1" connectable="0">
           <mxGeometry x="0.2" y="4" relative="1" as="geometry">
             <mxPoint x="16" y="-17" as="offset" />
           </mxGeometry>
@@ -63,7 +63,7 @@
             <mxPoint x="300" y="371" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T_ALOBzyCJ3aizw6vO3O-23" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;&lt;b&gt;Confirm Enorllment ( status )&lt;/b&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="T_ALOBzyCJ3aizw6vO3O-22" vertex="1" connectable="0">
+        <mxCell id="T_ALOBzyCJ3aizw6vO3O-23" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(236, 236, 236);&quot;&gt;&lt;b&gt;Confirm Enorllment ()&lt;/b&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="T_ALOBzyCJ3aizw6vO3O-22" vertex="1" connectable="0">
           <mxGeometry x="0.2" y="4" relative="1" as="geometry">
             <mxPoint x="26" y="-14" as="offset" />
           </mxGeometry>
