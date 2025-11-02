@@ -1,0 +1,42 @@
+[
+  {
+    "courseID": 101,
+    "courseTitle": "Java: from zero to hero",
+    "price": 49.99,
+    "description": "An advanced course in Java programming language.",
+    "instructorID": 1,
+    "maxCapacity": 20,
+    "availableSeats": 18,
+    "isAvailable": true,
+    "lessons": [
+      {
+        "lessonID": 1001,
+        "lessonTitle": "Variables and Data Types",
+        "optionalResources": "slides.pdf",
+        "content": "Explains variables and data types in Java."
+      },
+      {
+        "lessonID": 1002,
+        "lessonTitle": "Control Flow",
+        "optionalResources": "",
+        "content": "Covers if statements, loops, and switch cases."
+      }
+    ],
+    "quizzes": [
+      {
+        "quizID": 501,
+        "questions": [
+          "integer in Wrapper",
+          "char in wrapper"
+        ],
+        "choices": [
+          ["integer", "Integer", "int", "Int"],
+          ["character", "char", "Char", "Character"]
+        ],
+        "correctAnswers": [1, 2],
+        "passMark": 60
+      }
+    ]
+  }
+]
+
